@@ -54,6 +54,6 @@ app.post("/faillure", function(req, res){
   res.redirect("/");
 });
 
-app.listen(Process.env.PORT || 3000, function(){
+app.listen(process.env.PORT || 3000, function(){
   console.log("your app is runing on the port 3000");
 });
